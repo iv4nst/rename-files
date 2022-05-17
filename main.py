@@ -92,7 +92,7 @@ def main_menu() -> None:
             print('No more files left.')
             break
 
-        file_name = input('\nSelect file to rename: ')
+        file_name = input('\nSelect file to rename (q to quit): ')
 
         if file_name == 'q':
             print('Goodbye!')
